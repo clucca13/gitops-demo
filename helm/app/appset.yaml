@@ -30,4 +30,4 @@ spec:
               value: '{{releaseTag}}'
       destination:
         server: '{{cluster.address}}'
-        namespace: demo-gitops-pipeline
+        namespace: default
