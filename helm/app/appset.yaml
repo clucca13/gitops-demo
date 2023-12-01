@@ -17,7 +17,7 @@ spec:
         harness.io/serviceRef: '{{serviceTag}}'
         harness.io/buildRef: '{{releaseTag}}'
     spec:
-      project: ac977c6e
+      project: 06af6bc2
       source:
         repoURL: https://github.com/clucca13/gitops-pipeline-demo.git
         targetRevision: main
