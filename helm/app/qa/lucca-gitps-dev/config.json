@@ -6,5 +6,5 @@
   "releaseTag" : "1.16",
   "envTag" : "qa",
   "replicas" : "1",
-  "serviceTag" : "gitopspipelinedemo"
+  "serviceTag" : "gitopsdemo"
 }
