@@ -12,4 +12,9 @@ Setup a new gitops repository for this URL, you can use anonymous credentials be
 
 <img width="849" alt="image" src="https://github.com/clucca13/gitops-demo/assets/63068621/30510e49-3646-4771-9c04-5519e70a6b5f">
 
+Create a new gitops application in Harness
+Create a new service called gitops-demo
+Create a new environment called gitops-demo
+
+
 
