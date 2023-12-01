@@ -1,6 +1,6 @@
 {
   "cluster" : {
-    "address" : "https://35.233.139.33",
+    "address" : "https://35.238.214.47",
     "name" : "prod"
   },
   "replicas" : "1",
