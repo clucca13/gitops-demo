@@ -1,0 +1,33 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: demo-gitops-appset
+spec:
+  generators:
+  - git:
+      repoURL: https://github.com/wings-software/gitops-pipeline-demo.git
+      revision: main
+      files:
+      - path: "helm/app/*/*/config.json"
+  template:
+    metadata:
+      name: 'demo-helm-app-{{cluster.name}}'
+      labels:
+        harness.io/envRef: '{{envTag}}'
+        harness.io/serviceRef: '{{serviceTag}}'
+        harness.io/buildRef: '{{releaseTag}}'
+    spec:
+      project: ac977c6e
+      source:
+        repoURL: https://github.com/wings-software/gitops-pipeline-demo.git
+        targetRevision: main
+        path: "helm-nginx"
+        helm:
+          parameters:
+            - name: replicas
+              value: '{{replicas}}'
+            - name: tag
+              value: '{{releaseTag}}'
+      destination:
+        server: '{{cluster.address}}'
+        namespace: demo-gitops-pipeline

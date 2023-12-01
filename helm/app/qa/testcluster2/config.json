@@ -1,0 +1,10 @@
+{
+  "cluster" : {
+    "address" : "https://34.83.50.192",
+    "name" : "qa"
+  },
+  "releaseTag" : "1.16",
+  "envTag" : "qa",
+  "replicas" : "1",
+  "serviceTag" : "gitopspipelinedemo"
+}

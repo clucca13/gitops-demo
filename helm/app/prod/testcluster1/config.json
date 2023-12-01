@@ -1,0 +1,10 @@
+{
+  "cluster" : {
+    "address" : "https://35.233.139.33",
+    "name" : "prod"
+  },
+  "replicas" : "1",
+  "releaseTag" : "1.15",
+  "envTag": "Prod",
+  "serviceTag": "gitopspipelinedemo"
+}
