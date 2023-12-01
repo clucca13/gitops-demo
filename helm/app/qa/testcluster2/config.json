@@ -1,6 +1,6 @@
 {
   "cluster" : {
-    "address" : "https://34.83.50.192",
+    "address" : "https://34.132.130.28",
     "name" : "qa"
   },
   "releaseTag" : "1.16",
