@@ -1,0 +1,5 @@
+{
+  "releaseTag" : "1.16",
+  "envTag" : "qa",
+  "serviceTag" : "nginxappset"
+}
