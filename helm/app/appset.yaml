@@ -17,7 +17,7 @@ spec:
         harness.io/serviceRef: '{{serviceTag}}'
         harness.io/buildRef: '{{releaseTag}}'
     spec:
-      project: 7ef0d32a
+      project: 06af6bc2
       source:
         repoURL: https://github.com/clucca13/gitops-demo.git
         targetRevision: main
