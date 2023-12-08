@@ -1,6 +1,10 @@
 {
-  "releaseTag" : "1.16",
-  "envTag" : "dev",
-  "serviceTag" : "gitopsdemo",
-  "asset_id" : "2332"
+  "cluster" : {
+    "address" : "https://34.132.130.28",
+    "name" : "dev"
+  },
+  "replicas" : "1",
+  "releaseTag" : "1.15",
+  "envTag": "dev",
+  "serviceTag": "gitopspipelinedemo"
 }
